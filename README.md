@@ -19,6 +19,8 @@ Casks are updated by the graphmaster release pipeline.
 OpenCode (macOS arm64 and x64).
 
 ```sh
+brew tap pragmataW/tap
+brew trust pragmataW/tap   # Homebrew 7+ asks you to trust a third-party tap once
 brew install --cask pragmataW/tap/pragma-ade
 ```
 
