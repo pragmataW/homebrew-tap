@@ -1,9 +1,9 @@
 cask "pragma-ade" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.9.3"
-  sha256 arm:   "0725f1f958aa658bd6f9f209b213976a5805e6a8b228bb3dfda34e06122719a0",
-         intel: "eb54a195c94199d4377dd65952ade2c08b2e6a2cb0c31b063d17c4675807e3de"
+  version "0.10.0"
+  sha256 arm:   "88909180174e8b2b69c0397a0cba3285c56caf502819c2fa733d949d12055f40",
+         intel: "8dcaa117c8c28d1c971481e4544e78b5bd59174428c5d9f1466a58a4cc6b64c4"
 
   url "https://github.com/pragmataW/pragma-ade/releases/download/v#{version}/pragma-ade-#{version}-mac-#{arch}.zip"
   name "Pragma ADE"
